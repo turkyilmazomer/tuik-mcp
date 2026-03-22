@@ -184,6 +184,8 @@ MCP Client üzerinden şu sorular sorulabilir:
 
 Veriler TÜİK resmi yayınlarına dayalı **gömülü JSON veri setlerinden** sunulmaktadır. Harici API bağımlılığı yoktur, sunucu tamamen bağımsız çalışır.
 
+> ⚠️ **Not:** Veriler TÜİK bültenlerinden derlenmiş olup genel eğilimleri ve büyüklük sıralarını doğru yansıtmaktadır. Ancak bazı rakamlar yuvarlanmış veya yaklaşık olabilir. Kesin veriler için [TÜİK resmi sitesi](https://data.tuik.gov.tr/) referans alınmalıdır.
+
 **Kapsanan iller (eğitim & il işsizlik):** İstanbul, Ankara, İzmir, Bursa, Antalya, Adana, Konya, Gaziantep, Şanlıurfa, Diyarbakır, Mersin, Kayseri, Eskişehir, Trabzon, Samsun, Denizli, Malatya, Van, Erzurum, Mardin + Türkiye geneli
 
 ## 🛠️ Teknolojiler
