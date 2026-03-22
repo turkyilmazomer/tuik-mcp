@@ -4,6 +4,8 @@ TÜİK (Türkiye İstatistik Kurumu) verilerine erişim sağlayan **Model Contex
 
 Streamable HTTP transport ile çalışır. Tüm veriler gömülü JSON dosyalarından sunulur (TÜİK resmi yayınlarına dayalı).
 
+> 🌐 **Public URL:** `https://tuik-mcp-production.up.railway.app/mcp`
+
 ## 📋 Veri Kategorileri & Araçlar
 
 ### 📊 Nüfus Verileri (2010-2024)
@@ -91,7 +93,9 @@ railway login
 railway init
 railway up
 ```
-Proje `railway.json` ile otomatik yapılandırılır. Public URL: `https://<app>.up.railway.app/mcp`
+Proje `railway.json` ile otomatik yapılandırılır.
+
+✅ **Bu proje Railway'de yayında:** `https://tuik-mcp-production.up.railway.app/mcp`
 
 ### Fly.io
 
@@ -132,7 +136,7 @@ az webapp up --name tuik-mcp --runtime "DOTNET|8.0" --sku B1
   "mcpServers": {
     "tuik": {
       "type": "http",
-      "url": "https://<your-deployed-url>/mcp"
+      "url": "https://tuik-mcp-production.up.railway.app/mcp"
     }
   }
 }
@@ -145,8 +149,8 @@ az webapp up --name tuik-mcp --runtime "DOTNET|8.0" --sku B1
 ```yaml
 mcpServers:
   - name: tuik-mcp
-    type: http
-    url: https://<your-deployed-url>/mcp
+    type: streamable-http
+    url: https://tuik-mcp-production.up.railway.app/mcp
 ```
 
 > **Yerel kullanım için:** URL yerine `http://localhost:5000/mcp` (dotnet run) veya `http://localhost:8080/mcp` (Docker) kullanın.
@@ -156,7 +160,7 @@ mcpServers:
 Sunucu sağlık durumunu kontrol etmek için:
 
 ```bash
-curl https://<your-deployed-url>/health
+curl https://tuik-mcp-production.up.railway.app/health
 # {"status":"healthy","service":"TuikMcp","version":"1.0.0"}
 ```
 
