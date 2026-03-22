@@ -1,0 +1,37 @@
+[
+  { "year": 2024, "totalPopulation": 85803353, "malePopulation": 42975000, "femalePopulation": 42828353, "annualGrowthRate": 6.1, "province": "Türkiye" },
+  { "year": 2023, "totalPopulation": 85279553, "malePopulation": 42688335, "femalePopulation": 42591218, "annualGrowthRate": 7.1, "province": "Türkiye" },
+  { "year": 2022, "totalPopulation": 84680273, "malePopulation": 42428101, "femalePopulation": 42252172, "annualGrowthRate": 6.3, "province": "Türkiye" },
+  { "year": 2021, "totalPopulation": 84147020, "malePopulation": 42228063, "femalePopulation": 41918957, "annualGrowthRate": 6.4, "province": "Türkiye" },
+  { "year": 2020, "totalPopulation": 83614362, "malePopulation": 41915985, "femalePopulation": 41698377, "annualGrowthRate": 5.5, "province": "Türkiye" },
+  { "year": 2019, "totalPopulation": 83154997, "malePopulation": 41721136, "femalePopulation": 41433861, "annualGrowthRate": 14.0, "province": "Türkiye" },
+  { "year": 2018, "totalPopulation": 82003882, "malePopulation": 41139980, "femalePopulation": 40863902, "annualGrowthRate": 14.7, "province": "Türkiye" },
+  { "year": 2017, "totalPopulation": 80810525, "malePopulation": 40535135, "femalePopulation": 40275390, "annualGrowthRate": 12.4, "province": "Türkiye" },
+  { "year": 2016, "totalPopulation": 79814871, "malePopulation": 40043650, "femalePopulation": 39771221, "annualGrowthRate": 13.5, "province": "Türkiye" },
+  { "year": 2015, "totalPopulation": 78741053, "malePopulation": 39511191, "femalePopulation": 39229862, "annualGrowthRate": 13.4, "province": "Türkiye" },
+  { "year": 2014, "totalPopulation": 77695904, "malePopulation": 38984302, "femalePopulation": 38711602, "annualGrowthRate": 13.3, "province": "Türkiye" },
+  { "year": 2013, "totalPopulation": 76667864, "malePopulation": 38473360, "femalePopulation": 38194504, "annualGrowthRate": 13.7, "province": "Türkiye" },
+  { "year": 2012, "totalPopulation": 75627384, "malePopulation": 37956168, "femalePopulation": 37671216, "annualGrowthRate": 12.0, "province": "Türkiye" },
+  { "year": 2011, "totalPopulation": 74724269, "malePopulation": 37532954, "femalePopulation": 37191315, "annualGrowthRate": 13.5, "province": "Türkiye" },
+  { "year": 2010, "totalPopulation": 73722988, "malePopulation": 37043182, "femalePopulation": 36679806, "annualGrowthRate": 15.9, "province": "Türkiye" },
+
+  { "year": 2024, "totalPopulation": 16054000, "malePopulation": 7912000, "femalePopulation": 8142000, "annualGrowthRate": 3.2, "province": "İstanbul" },
+  { "year": 2023, "totalPopulation": 15907951, "malePopulation": 7840851, "femalePopulation": 8067100, "annualGrowthRate": 2.8, "province": "İstanbul" },
+  { "year": 2022, "totalPopulation": 15848395, "malePopulation": 7808219, "femalePopulation": 8040176, "annualGrowthRate": 1.3, "province": "İstanbul" },
+  { "year": 2021, "totalPopulation": 15840900, "malePopulation": 7812000, "femalePopulation": 8028900, "annualGrowthRate": 4.5, "province": "İstanbul" },
+  { "year": 2020, "totalPopulation": 15462452, "malePopulation": 7649505, "femalePopulation": 7812947, "annualGrowthRate": 0.3, "province": "İstanbul" },
+
+  { "year": 2024, "totalPopulation": 5803482, "malePopulation": 2880000, "femalePopulation": 2923482, "annualGrowthRate": 8.5, "province": "Ankara" },
+  { "year": 2023, "totalPopulation": 5747325, "malePopulation": 2849613, "femalePopulation": 2897712, "annualGrowthRate": 9.1, "province": "Ankara" },
+  { "year": 2022, "totalPopulation": 5695548, "malePopulation": 2822400, "femalePopulation": 2873148, "annualGrowthRate": 8.6, "province": "Ankara" },
+
+  { "year": 2024, "totalPopulation": 4479525, "malePopulation": 2220000, "femalePopulation": 2259525, "annualGrowthRate": 5.1, "province": "İzmir" },
+  { "year": 2023, "totalPopulation": 4462056, "malePopulation": 2210928, "femalePopulation": 2251128, "annualGrowthRate": 3.8, "province": "İzmir" },
+  { "year": 2022, "totalPopulation": 4441775, "malePopulation": 2200000, "femalePopulation": 2241775, "annualGrowthRate": 3.2, "province": "İzmir" },
+
+  { "year": 2024, "totalPopulation": 3194000, "malePopulation": 1610000, "femalePopulation": 1584000, "annualGrowthRate": 13.5, "province": "Bursa" },
+  { "year": 2023, "totalPopulation": 3147818, "malePopulation": 1583000, "femalePopulation": 1564818, "annualGrowthRate": 12.1, "province": "Bursa" },
+
+  { "year": 2024, "totalPopulation": 2988000, "malePopulation": 1510000, "femalePopulation": 1478000, "annualGrowthRate": 17.8, "province": "Antalya" },
+  { "year": 2023, "totalPopulation": 2688004, "malePopulation": 1354000, "femalePopulation": 1334004, "annualGrowthRate": 33.2, "province": "Antalya" }
+]

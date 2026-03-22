@@ -1,0 +1,41 @@
+# Google Cloud Run deployment
+# Usage:
+#   gcloud run deploy tuik-mcp \
+#     --source . \
+#     --region europe-west1 \
+#     --allow-unauthenticated \
+#     --port 8080 \
+#     --min-instances 0 \
+#     --max-instances 3 \
+#     --memory 256Mi \
+#     --cpu 1
+
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/tuik-mcp:$COMMIT_SHA', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/tuik-mcp:$COMMIT_SHA']
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'tuik-mcp'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/tuik-mcp:$COMMIT_SHA'
+      - '--region'
+      - 'europe-west1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--port'
+      - '8080'
+      - '--memory'
+      - '256Mi'
+      - '--min-instances'
+      - '0'
+      - '--max-instances'
+      - '3'
+
+images:
+  - 'gcr.io/$PROJECT_ID/tuik-mcp:$COMMIT_SHA'
