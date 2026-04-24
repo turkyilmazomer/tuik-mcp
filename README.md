@@ -4,7 +4,7 @@ TÜİK (Türkiye İstatistik Kurumu) verilerine erişim sağlayan **Model Contex
 
 Streamable HTTP transport ile çalışır. Tüm veriler gömülü JSON dosyalarından sunulur (TÜİK resmi yayınlarına dayalı).
 
-> 🌐 **Public URL:** `https://tuik-mcp-production.up.railway.app/mcp`
+> 🌐 **Public URL:** `https://tuik.dev/mcp`
 
 ## 📋 Veri Kategorileri & Araçlar
 
